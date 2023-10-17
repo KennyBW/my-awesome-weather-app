@@ -1,0 +1,62 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  h1 {
+    text-align: left;
+    top: 0;
+    margin: 15px;
+  }
+  
+  ul {
+    text-align: left;
+    list-style: none;
+  }
+  
+  img {
+    width: 50px;
+  }
+  
+  .card {
+    padding: 0 auto;
+  }
+  
+  .weather-details {
+    align-items: right;
+    display: flex;
+  }
+  
+
+  .container {
+    border-width: 10px;
+    border: 1.5px solid #081192;
+    padding: 16px;
+    margin: 10px auto;
+  }
+  
+  .weather-App {
+    text-align: left;
+    border-radius: 10px;
+    margin: top 10px;
+  }
+  
+  .heading {
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 7px;
+  }
+  .btn-group {
+    margin-bottom: 30px;
+  }
+  .current{
+  
+    margin: 1rem;
+  float:right;
+  }
+
+  .search {
+    display: block;
+    margin: 1rem auto;
+    height: 1em;
+    min-height: 1.1rem
+ }
