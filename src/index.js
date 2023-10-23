@@ -72,7 +72,7 @@ axios.get(apiUrl).then(showTemperature);
 function showTemperature(response) {
     let temperature= Math.round(response.data.main.temp);
     
-    let heading = document.querySelector("h1");
+    let heading = document.querySelector("h2");
     let cityElement = document.querySelector("#city");
     let temperatureElement = document.querySelector("#temperature");
     cityElement.innerHTML = response.data.name
